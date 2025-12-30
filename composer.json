@@ -1,0 +1,18 @@
+{
+    "name": "galette/coding-standard",
+    "description": "Galette Coding Standard for PHP_CodeSniffer.",
+    "license": "BSD-3-Clause",
+    "type": "phpcodesniffer-standard",
+    "keywords": [ "phpcs", "dev" ],
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.2.0",
+        "squizlabs/php_codesniffer": "^4.0.1"
+    }
+}
